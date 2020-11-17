@@ -1,0 +1,62 @@
+{
+        "scope": "text.tex.latex - (string.other.math, meta.environment.math)",
+
+        "completions":
+        [
+                { "trigger": "it", "contents": "\\textit{$1}$0"},
+                { "trigger": "bf", "contents": "\\textbf{$1}$0"},
+                { "trigger": "em", "contents": "\\emph{$1}$0"},
+                { "trigger": "tt", "contents": "\\texttt{$1}$0"},
+                { "trigger": "un", "contents": "\\underline{$1}$0"},
+
+                { "trigger": "bs", "contents": "\\bigskip"},
+                { "trigger": "ms", "contents": "\\medskip"},
+                { "trigger": "ss", "contents": "\\smallskip"},
+
+                { "trigger": "use", "contents": "\\usepackage"},
+        
+                { "trigger": "beq", "contents": "\\[\n$0\n\\]"},               
+                { "trigger": "beqn", "contents": "\\begin{equation}\n$0\n\\end{equation}\n"},
+                { "trigger": "beqnn", "contents": "\\begin{equation*}\n$0\n\\end{equation*}\n"},
+                { "trigger": "bga", "contents": "\\begin{gather*}\n$0\n\\end{gather*}\n"},
+                { "trigger": "bgan", "contents": "\\begin{gather}\n$0\n\\end{gather}\n"},                
+                { "trigger": "baln", "contents": "\\begin{align*}\n$0\n\\end{align*}\n"},
+                { "trigger": "bal", "contents": "\\begin{align}\n$0\n\\end{align}\n"},
+                { "trigger": "baa", "contents": "\\begin{alignat*}\n$0\n\\end{alignat*}\n"},
+                { "trigger": "baan", "contents": "\\begin{alignat}\n$0\n\\end{alignat}\n"},
+                { "trigger": "bfl", "contents": "\\begin{flalign*}\n$0\n\\end{flalign*}\n"},                
+                { "trigger": "bfln", "contents": "\\begin{flalign}\n$0\n\\end{flalign}\n"},
+                { "trigger": "bml", "contents": "\\begin{multline*}\n$0\n\\end{multline*}\n"},                
+                { "trigger": "bmln", "contents": "\\begin{multline}\n$0\n\\end{multline}\n"},
+                { "trigger": "def", "contents": "\\begin{definition}[]\n$0\n\\end{definition}\n"},
+                { "trigger": "thm", "contents": "\\begin{theorem}[]\n$0\n\\end{theorem}\n"},
+                { "trigger": "ex", "contents": "\\begin{example}[]\n$0\n\\end{example}\n"},
+                { "trigger": "exr", "contents": "\\begin{exercise}\n$0\n\\end{exercise}\n"},
+                { "trigger": "sol", "contents": "\\begin{solution}\n$0\n\\end{solution}\n"},
+                { "trigger": "pf", "contents": "\\begin{proof}\n$0\n\\end{proof}\n"},
+                { "trigger": "lem", "contents": "\\begin{lemma}[]\n$0\n\\end{lemma}\n"},
+                { "trigger": "prop", "contents": "\\begin{proposition}[]\n$0\n\\end{proposition}\n"},
+                { "trigger": "cor", "contents": "\\begin{corollary}[]\n$0\n\\end{corollary}\n"},
+
+                { "trigger": "clm", "contents": "\\begin{claim}[]\n$0\n\\end{claim}\n"},
+
+                { "trigger": "bit", "contents": "\\begin{itemize}\n\t\\item $0\n\\end{itemize}\n"},
+                { "trigger": "ben", "contents": "\\begin{enumerate}\n\t\\item $0\n\\end{enumerate}\n"},
+                { "trigger": "i", "contents": "\\item "},
+
+                { "trigger": "summ", "contents": "\\begin{summary}\n$0\n\\end{summary}\n"},
+                { "trigger": "mod", "contents": "\\begin{model}\n$0\n\\end{model}\n"},
+                { "trigger": "tres", "contents": "\\begin{tresults}\n$0\n\\end{tresults}\n"},
+                { "trigger": "eres", "contents": "\\begin{eresults}\n$0\n\\end{eresults}\n"},
+                { "trigger": "motiv", "contents": "\\begin{motivation}\n$0\n\\end{motivation}\n"},
+                { "trigger": "rmk", "contents": "\\begin{remark}\n$0\n\\end{remark}\n"},
+                { "trigger": "int", "contents": "\\begin{interpretation}\n$0\n\\end{interpretation}\n"},
+
+                // Todolists
+                { "trigger": "imp", "contents": "\\improvement[inline]{$0}"},  
+                { "trigger": "change", "contents": "\\change[inline]{$0}"},     
+                { "trigger": "uns", "contents": "\\unsure[inline]{$0}"},
+
+
+        ]
+}
